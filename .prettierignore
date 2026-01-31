@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+
+.env
+
+# build output
+dist/
+build/
+out/
+
+# lock files (never format these)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# coverage & reports
+coverage/
+
+# generated files
+*.min.js
+*.min.css
+
+# cache
+.cache/
