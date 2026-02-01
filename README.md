@@ -48,7 +48,7 @@ To use the Winston logger, you can import it in your code and use it as follows:
 
 First go to your index.js file and add the following code:
 #
-index.js
+**index.js**
 
     import logger from "./logger";
     import morgan from "morgan";
@@ -91,7 +91,7 @@ This will log the messages to the console and the file app.log.
 To configure Winston to write in different files like error and all
 
 #
-Logger.js 
+**Logger.js** 
 
     import winston from "winston";
 
